@@ -1,0 +1,26 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and local tool state
+.vscode/
+.idea/
+.Claude/
+
+# OS files
+Thumbs.db
+.DS_Store
